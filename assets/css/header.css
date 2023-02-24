@@ -292,6 +292,13 @@ header {
 
 @media only screen and (max-width: 768px) {
 
+    .header_menu {
+        padding-top: 0;
+        width: 50%;
+    }
+    .header_menu li {
+        padding-bottom: 20px;
+    }
     .logo-img {
         width: 5rem;
     }
