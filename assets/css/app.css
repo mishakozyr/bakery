@@ -1,0 +1,90 @@
+@import url(../css/header.css);
+@import url(../css/intro.css);
+@import url(../css/present.css);
+@import url(../css/about.css);
+@import url(../css/price_slider.css);
+@import url(../css/video-link.css);
+@import url(../css/form.css);
+@import url(../css/footer.css);
+
+@import url(../css/about_slider.css);
+@import url(../css/intro_slider.css);
+@import url(../css/price_slider.css);
+
+/* #D89A75 */
+/* #5C2612 */
+/* color: rgb(224, 164, 94); */
+/* color: rgb(92, 38, 18); */
+html {
+    height: 100%;
+
+    /* защита от смены размера шрифта при переворачивании телефона */
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+
+    /* чтобы не увеличивался шрифт в моб браузерах */
+    /* -webkit-text-size-adjust : 100%;
+    text-size-adjust         : 100% */
+}
+
+body {overflow-x: hidden;} 
+
+.main {
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+/* Section */
+.section_title_h2 {
+    padding-top: 3.125rem;
+
+    font-family: "Lora";
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #4a221a;
+
+    text-align: center;
+}
+.section_title_h3 {
+    font-family: "Lora";
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #4a221a;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section_content {
+    padding-top: 2.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section_column {
+    width: 47%;
+    text-align: center;
+}
+.section_column.second {width: auto;}
+.section_text {
+    padding-top: 1.25rem;
+    font-family: "Lora";
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #4a221a;
+    line-height: 1.5;
+}
+.section_text.about p {
+    padding-bottom: 1.25rem;
+}
+.section_text_b {
+    font-weight: 700;
+}
+
+

@@ -1,0 +1,132 @@
+
+/* чаще всего берут */
+.present_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.present_img {
+    width: 100%;
+    height: auto;
+
+    transition: .5s;
+}
+.present_img:hover {
+    transform: scale(130%);
+}
+.present_title {
+    font-family: "Lora";
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #4a221a;
+}
+
+
+.best_seller {
+    background-image: url(../img/bg-product-02-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.best_seller_content {
+    max-width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price_slider__item {
+    flex: 0 0 20%;
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255, 0.8);
+    font-size: 7rem;
+  }
+
+.link_item {
+    height: 21.875rem;
+    width: 15.625rem;
+
+    border: 1px solid black;
+}
+.link_img {
+    height: auto;
+    width: 15.625rem;
+}
+.link_title {
+    font-family: "Lora";
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #4a221a;
+    text-decoration: none;
+    padding-top: 1.5625rem;
+
+    transition: all .2s;
+}
+.link_title:hover {
+    color: #e0a45e;
+    text-decoration: underline;
+}
+.price {
+    padding-top: 1.25rem;
+    padding-bottom: 0.625rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.price_a {
+    padding-top: 3.125rem;
+
+    text-decoration: none;
+    outline: none;
+}
+.price_num_del {
+    font-family: "Lora";
+    color: #764c24;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-right: 0.3125rem;
+    opacity: 1;
+    text-decoration: line-through;
+}
+.price_num {
+    padding: 0 0.3125rem;
+    font-family: "Lora";
+    color: #764c24;
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+.price ins, .price del{
+    color: #764c24;
+}
+.price_btn {
+    margin-top: 4.375rem;
+    margin-bottom: 4.375rem;
+
+    width: 10.625rem;
+    padding: 0.75rem;
+
+    background-color: unset;
+    color: rgb(74, 34, 26);
+    font-family: "Lora";
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid rgb(74, 34, 26);
+    border-radius: 50px;
+
+    transition-duration: 0.4s;
+}
+.price_btn:hover {
+    background-color: rgb(74, 34, 26);
+    color: white;
+}

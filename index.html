@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <title>Булочная</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+    
+        <header>
+            <div class="logo">
+                <a href="/">
+                    <img class="logo-img" src="assets/img/logo1.svg" alt="">
+                    <div>Булочки</div>
+                    <div>Данила</div>
+                </a>
+            </div>
+            <ul class="header_menu" id="nav">
+                <li class="nav-link"><a href="/">Главная</a></li>
+                <li class="nav-link"><a href="/">Продукция</a></li>
+                <li class="nav-link"><a href="/">Доставка</a></li>
+                <li class="nav-link"><a href="/">Контакты</a></li>
+                <li class="nav-link"><a href="/">Блог</a></li>
+            </ul>
+            <div class="header_after_menu">
+                <div class="header_after_text">
+                    <div>Время работы: 08:00 - 20:00</div>
+                    <div>Телефон: <a href="tel:+70000000000">+7 (000) 000-00-00</a></div>
+                </div>
+                <a class="shopping_cart_img" href="/"></a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" type="button">
+                <span class="nav-toggle-item">Menu</span>
+            </button>
+        </header>
+
+        <div class="intro">
+            <div class="intro_img"></div>
+                <!-- Intro Slider -->
+                <div class="intro_slider" data-autoplay="true" data-interval="7000" data-loop="true" data-slider="intro_slider">
+                    <div class="intro_slider__wrapper">
+                    <div class="intro_slider__items">
+                        <!-- первый слайд -->
+                        <div class="intro_slider__item">
+                            <div class="intro_content">
+                                <div>
+                                    <h3 class="intro_before_title">100% натуральная свежая выпечка</h3>
+                                    <h2 class="intro_title">Комбинированная выпечка, испеченная сегодня</h2>
+                                    <h3 class="intro_after_title">3 круассана, 3 бублика, 3 булочки с маком, 5 простых булочек, 
+                                        блаблабла блаблабла блаблабла блаблабла блаблабла.</h3>
+                                    <a class="intro-btn" href="/">Заказать сейчас</a>
+                                </div>
+                                <img class="intro_content_img" src="assets/img/product-slider.png" alt="">
+                            </div>
+                        </div>
+                        <!-- второй слайд -->
+                        <div class="intro_slider__item">
+                            <div class="intro_content">
+                                <img class="intro_content_img" src="assets/img/product-slider-8.png" alt="">
+                                <div>
+                                    <div class="intro_before_title">100% натуральная свежая выпечка</div>
+                                    <div class="intro_title">Комбинированная выпечка, испеченная сегодня</div>
+                                    <div class="intro_after_title">3 круассана, 3 бублика, 3 булочки с маком, 5 простых булочек, 
+                                        блаблабла блаблабла блаблабла блаблабла блаблабла.</div>
+                                    <a class="intro-btn" href="/">Заказать сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- третий слайд -->
+                        <div class="intro_slider__item">
+                            <div class="intro_content">
+                                <div>
+                                    <div class="intro_before_title">100% натуральная свежая выпечка</div>
+                                    <div class="intro_title">Комбинированная выпечка, испеченная сегодня</div>
+                                    <div class="intro_after_title">3 круассана, 3 бублика, 3 булочки с маком, 5 простых булочек, 
+                                        блаблабла блаблабла блаблабла блаблабла блаблабла.</div>
+                                    <a class="intro-btn" href="/">Заказать сейчас</a>
+                                </div>
+                                <img class="intro_content_img" src="assets/img/pngegg.png" alt="">
+                            </div>
+                        </div>
+                        <!-- четвертый слайд -->
+                        <div class="intro_slider__item">
+                            <div class="intro_content">
+                                <img class="intro_content_img" src="assets/img/bread_cart.png" alt="">
+                                <div>
+                                    <div class="intro_before_title">100% натуральная свежая выпечка</div>
+                                    <div class="intro_title">Комбинированная выпечка, испеченная сегодня</div>
+                                    <div class="intro_after_title">3 круассана, 3 бублика, 3 булочки с маком, 5 простых булочек, 
+                                        блаблабла блаблабла блаблабла блаблабла блаблабла.</div>
+                                    <a class="intro-btn" href="/">Заказать сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <button class="intro_slider__btn intro_slider__btn_prev">&#10094;</button>
+                    <button class="intro_slider__btn intro_slider__btn_next">&#10095;</button>
+                </div>
+        
+        </div>
+
+        <div class="about">
+            <div class="container">
+                <div class="section_title_h2">
+                    <h2>О нашей булочной</h2>
+                    <img src="assets/img/heading_separate.png" alt="">
+                </div>
+                <div class="section_content">
+                    <div class="section_column">
+                        <h3 class="section_title_h3">Маленькая история</h3>
+                        <div class="section_text about">
+                            <p>Блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла лаблабла блаблабла блаблабла 
+                                блаблабла блаблабла лаблабла блаблабла <span class="section_text_b">аж в 1905 году да да да!!</span></p>
+                            <p>Блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла лаблабла блаблабла блаблабла 
+                                блаблабла блаблабла лаблабла блаблабла блаблабла блаблабла блаблабла</p>
+                            <p>Блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла лаблабла блаблабла блаблабла 
+                                блаблабла блаблабла лаблабла блаблабла блаблабла блаблабла блаблабла</p>
+                            <p>Блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла лаблабла блаблабла блаблабла 
+                                блаблабла блаблабла лаблабла блаблабла <span class="section_text_b">и работаем по сей день</span></p>
+                        </div>
+                    </div>
+                    <div class="section_column" style="width: 40%;">
+                        <h3 class="section_title_h3">Фотографии</h3>
+                        
+                        <div class="about_slider" data-autoplay="true" data-interval="7000" data-loop="true" data-slider="about_slider">
+                            <div class="about_slider__wrapper">
+                            <div class="about_slider__items">
+                                <div class="about_slider__item">
+                                <!-- Контент 1 слайда -->
+                                <img class="about_img" src="assets/img/bread-buns-marble-background-with-blank-frame-write-prices.jpg" alt="">
+                                </div>
+                                <div class="about_slider__item">
+                                <!-- Контент 2 слайда -->
+                                <img class="about_img" src="assets/img/bread-bun-marble-wooden-board.jpg" alt="">
+                                </div>
+        
+                            </div>
+                            </div>
+                            <button class="about_slider__btn about_slider__btn_prev">&#10094;</button>
+                            <button class="about_slider__btn about_slider__btn_next">&#10095;</button>
+                            <ol class="about_slider__indicators">
+                            <li class="about_slider__indicator" data-slide-to="0"></li>
+                            <li class="about_slider__indicator" data-slide-to="1"></li>
+                            
+                            </ol>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="best_seller">
+                <div class="section_title_h2">
+                    <h2>Чаще всего берут</h2>
+                    <img src="assets/img/heading_separate.png" alt="">
+                </div>
+
+                <div class="best_seller_content">
+                    <div class="section_column">
+                        <div class="section_text">
+                            <p>Блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла блаблабла лаблабла блаблабла блаблабла 
+                                блаблабла блаблабла лаблабла блаблабла блаблабла блаблабла блаблабла</p>
+                        </div>
+                    </div>
+
+                    <div class="price_slider" data-slider="price_slider" data-loop="true" data-autoplay="true">
+                        <div class="price_slider__wrapper">
+                        <div class="price_slider__items">
+                            <div class="price_slider__item">
+                                <div class="present_item">
+                                    <a class="price_a" href="/">
+                                        <img class="present_img" src="assets/img/kruassan.png" alt="">
+                                        <h4 class="link_title">Круассан</h4>
+                                    </a>
+                                    <div class="price">
+                                        <span class="price_num_del">45.00 <span class="price_let">руб.</span></span> 
+                                        <span class="price_num">40.00 <span class="price_let">руб.</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price_slider__item">
+                                <div class="present_item">
+                                    <a class="price_a" href="/">
+                                        <img class="present_img" src="assets/img/kruassan.png" alt="">
+                                        <h4 class="link_title">Круассан</h4>
+                                    </a>
+                                    <div class="price">
+                                        <span class="price_num_del">45.00 <span class="price_let">руб.</span></span> 
+                                        <span class="price_num">40.00 <span class="price_let">руб.</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price_slider__item">
+                                <div class="present_item">
+                                    <a class="price_a" href="/">
+                                        <img class="present_img" src="assets/img/kruassan.png" alt="">
+                                        <h4 class="link_title">Круассан</h4>
+                                    </a>
+                                    <div class="price">
+                                        <span class="price_num_del">45.00 <span class="price_let">руб.</span></span> 
+                                        <span class="price_num">40.00 <span class="price_let">руб.</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price_slider__item">
+                                <div class="present_item">
+                                    <a class="price_a" href="/">
+                                        <img class="present_img" src="assets/img/kruassan.png" alt="">
+                                        <h4 class="link_title">Круассан</h4>
+                                    </a>
+                                    <div class="price">
+                                        <span class="price_num_del">45.00 <span class="price_let">руб.</span></span> 
+                                        <span class="price_num">40.00 <span class="price_let">руб.</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price_slider__item">
+                                <div class="present_item">
+                                    <a class="price_a" href="/">
+                                        <img class="present_img" src="assets/img/kruassan.png" alt="">
+                                        <h4 class="link_title">Круассан</h4>
+                                    </a>
+                                    <div class="price">
+                                        <span class="price_num_del">45.00 <span class="price_let">руб.</span></span> 
+                                        <span class="price_num">40.00 <span class="price_let">руб.</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price_slider__item">
+                                <div class="present_item">
+                                    <a class="price_a" href="/">
+                                        <img class="present_img" src="assets/img/kruassan.png" alt="">
+                                        <h4 class="link_title">Круассан</h4>
+                                    </a>
+                                    <div class="price">
+                                        <span class="price_num_del">45.00 <span class="price_let">руб.</span></span> 
+                                        <span class="price_num">40.00 <span class="price_let">руб.</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price_slider__item">
+                                <div class="present_item">
+                                    <a class="price_a" href="/">
+                                        <img class="present_img" src="assets/img/kruassan.png" alt="">
+                                        <h4 class="link_title">Круассан</h4>
+                                    </a>
+                                    <div class="price">
+                                        <span class="price_num_del">45.00 <span class="price_let">руб.</span></span> 
+                                        <span class="price_num">40.00 <span class="price_let">руб.</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                
+                    <a class="price_btn" href="/">Вся продукция</a>
+
+                </div>
+
+        </div>
+
+        <div class="video_link">
+            <div class="video_column">
+                <div class="video_after_title">Видео-презентация</div>
+                <div class="video_title">Различные виды хлебобулочных изделий</div>
+                <a class="video_btn" href="https://www.youtube.com/">
+                    <svg class="video_svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 779.7 779.7" 
+                    style="enable-background:new 0 0 779.7 779.7;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:#FFFFFF;}
+                        </style>
+                        <g>
+                            <g id="_x37__12_">
+                                <g>
+                                    <path class="st0" d="M679.5,349.7L151.1,9.2C119.7-7.7,83.8-6,83.8,54.7v670.6c0,55.4,38.5,
+                                    64.2,67.3,45.5l528.4-340.5     C701.3,408,701.3,372,679.5,349.7z"/>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="section_content" style="justify-content: space-around;">
+                <div class="section_column">
+                    <div class="footer_title_h2">
+                        <h2>Онлайн-бронирование</h2>
+                        <img src="assets/img/heading_separate.png" alt="">
+                    </div>
+                    <div class="footer_text">
+                        <p>
+                            Забронируйте столик прямо сейчас онлайн и получите подтверждение в считанные секунды. 
+                            Или свяжитесь с нами напрямую по телефону: +7 (000) 000-00-00
+                        </p>
+                    </div>
+
+                    <div class="form-container">
+                       
+                        <form action="#" method="post" class="contact-form">
+                            <div class="form-name">
+                                <input type="text" placeholder="Ваше имя" name="name" class="name-input" required>
+                            </div>
+                            <div class="form-telephone">
+                                <input type="text" placeholder="Номер телефона" name="telephone" 
+                                class="telephone-input" required>
+                            </div>
+                            <div class="form-time">
+                                <select name="time" class="time-input" aria-invalid="false" required>
+                                        <option value="08:00">08:00</option>
+                                        <option value="09:00">09:00</option>
+                                        <option value="10:00">10:00</option>
+                                        <option value="11:00">11:00</option>
+                                        <option value="12:00">12:00</option>
+                                        <option value="13:00">13:00</option>
+                                        <option value="14:00">14:00</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="16:00">16:00</option>
+                                        <option value="17:00">17:00</option>
+                                        <option value="18:00">18:00</option>
+                                        <option value="19:00">19:00</option>
+                                        <option value="20:00">20:00</option>
+                                </select>
+                            </div>
+                            <div class="form-date">
+                                <input type="date" name="date" placeholder="Дата посещения" class="date-input" 
+                                min="2023-01-03" required>
+                            </div>
+                            <div class="form-people">
+                                <select placeholder="Время посещения" name="people" class="people-input" required>
+                                    <option value="1 человек">1 человек</option>
+                                    <option value="2 человек">2 человека</option>
+                                    <option value="3 человек">3 человека</option>
+                                    <option value="4 человек">4 человека</option>
+                                </select>
+                            </div>
+                            <div class="form-message">
+                                <textarea name="message" placeholder="Комментарий" class="message-input" cols="20" 
+                                rows="5"></textarea>
+                            </div>
+                            <div class="form-submit">
+                                <input type="submit" value="Отправить" class="form-btn" />
+                            </div>
+                        </form>
+                      </div>
+
+                </div>
+
+                <div class="section_column second">
+                    <div class="footer_title_h2">
+                        <h2>Адреса булочных</h2>
+                        <img src="assets/img/heading_separate.png" alt="">
+                    </div>
+
+                    <h4 class="footer_title_h4">Булочная в СПб</h4>
+                    <div class="footer_adress_text">
+                        <p>
+                            16122 Невский проспект, 65<br>
+                            Email: info@bulochki-danila.ru<br>
+                            Телефон: +7 (000) 000-00-00
+                        </p>
+                    </div>
+
+                    <h4 class="footer_title_h4">Булочная в МСК</h4>
+                    <div class="footer_adress_text">
+                        <p> 
+                            16122 Московский проспект, 65<br>
+                            Email: info@bulochki-danila.ru<br>
+                            Телефон: +7 (000) 000-00-00
+                        </p>
+                    </div>
+
+                    <h4 class="footer_title_h4">Время работы</h4>
+                    <div class="footer_adress_text">
+                        <p> 
+                            Понедельник – Пятница: 08:00 – 20:30<br>
+                            Суббота – Воскресенье: 10:00 – 16:30
+                        </p>
+                    </div>
+
+                    <div class="footer-social-icons">                
+                        <a href="https://vk.com/" target="_blank"><img class="footer-icon" 
+                            src="assets/img/social-icons/VK_light_brown.svg" alt=""></a>
+                        <a href="https://t.me/" target="_blank"><img class="footer-icon" 
+                            src="assets/img/social-icons/Telegram_light_brown.svg" alt=""></a>
+                        <a href="https://wa.me/" target="_blank"><img class="footer-icon" 
+                            src="assets/img/social-icons/WhatsApp_light_brown.svg" alt=""></a>
+                        <a href="https://instagrem.com/" target="_blank"><img class="footer-icon" 
+                            src="assets/img/social-icons/Instagram_light_brown.svg" alt=""></a>
+                        <a href="https://youtube.com/" target="_blank"><img class="footer-icon" 
+                            src="assets/img/social-icons/YouTube_light_brown.svg" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script> -->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/intro_slider.js"></script>
+    <script src="assets/js/about_slider.js"></script>
+    <script src="assets/js/price_slider.js"></script>
+    
+</body>
+</html>

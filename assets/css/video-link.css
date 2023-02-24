@@ -1,0 +1,73 @@
+
+.video_link {
+    background-image: url(../img/still-life-with-appetizing-bakery-food.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+.video_column {
+    width: 50%;
+}
+.video_after_title {
+    padding-bottom: 1.25rem;
+
+    font-family: "Lora";
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    /* width: 50%; */
+}
+.video_title {
+    padding-bottom: 1.25rem;
+
+    font-family: "Lora";
+    font-style: italic;
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+
+    /* width: 50%; */
+}
+.video_btn {
+    border: solid 2px currentColor;
+    background-color: transparent;
+
+    width: 4.75rem;
+    height: 4.75rem;
+
+    border-radius: 50%;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .3s;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0); 
+
+    transition: .3s;
+}
+.video_btn:hover {
+    background-color: #fff; 
+} 
+.video_svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.video_btn:hover .st0 {
+   fill: black;
+}
