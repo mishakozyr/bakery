@@ -7,3 +7,43 @@
 .about {
     height: 100vh;
 }
+
+.section_column.about-second {
+    width: 40%;
+}
+
+@media only screen and (max-width: 1920px) {
+
+}
+ 
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .about {
+        height: auto;
+        margin-bottom: 15%;
+    }
+    .about_img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+@media only screen and (max-width: 376px) {
+
+}

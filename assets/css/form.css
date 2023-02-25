@@ -91,3 +91,42 @@
     background-color: #e0a45e;
     color: #4a221a;
 }
+
+@media only screen and (max-width: 1920px) {
+
+}
+ 
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .name-input, .telephone-input, .date-input, 
+    .time-input, .people-input, .message-input {
+        font-size: 0.6875rem;
+    }
+    .form-btn {
+        width: 10.625rem;
+        font-size: 0.875rem;
+        margin-bottom: 2.5rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+@media only screen and (max-width: 376px) {
+
+}

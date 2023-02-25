@@ -141,6 +141,43 @@
 
 
 
+@media only screen and (max-width: 1920px) {
 
-
+}
   
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .about_slider {
+      padding-top: 1.25rem;
+  }
+  .about_slider__item {
+    height: auto;
+  }
+  .about_slider__btn_next,
+  .about_slider__btn_prev {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+@media only screen and (max-width: 376px) {
+
+}
+

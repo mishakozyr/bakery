@@ -71,3 +71,51 @@
 .video_btn:hover .st0 {
    fill: black;
 }
+
+@media only screen and (max-width: 1920px) {
+
+}
+ 
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .video_link {
+        height: 70vh;
+    }
+    .video_column {
+        width: 100%;
+    }
+    .video_btn {
+        width: 70px;
+        height: 70px;
+    }
+    .video_after_title {
+        padding-bottom: 0.625rem;
+        font-size: 0.875rem;
+    }
+    .video_title {
+        padding-bottom: 0.625rem;
+        font-size: 1.25rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+@media only screen and (max-width: 376px) {
+
+}

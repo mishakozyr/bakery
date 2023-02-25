@@ -27,6 +27,13 @@ html {
     text-size-adjust         : 100% */
 }
 
+html,
+body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+}
+
 body {overflow-x: hidden;} 
 
 .main {
@@ -88,3 +95,71 @@ body {overflow-x: hidden;}
 }
 
 
+a.tel, a.tel:active, a.tel:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 1920px) {
+
+}
+ 
+
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .section_title_h2 {
+        padding-top: 1.875rem;
+        font-size: 1.375rem;
+    }
+    .section_title_h2 img {
+        width: 65px;
+    }
+    .section_title_h3 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .section_content {
+        padding-top: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .section_column.about-second {
+        width: 90%;
+    }
+    .section_column {
+        width: 90%;
+    }
+    .section_text.about p {
+        padding-bottom: 10px;
+        font-size: 0.875rem;
+    }
+    .section_text {
+        font-size: 0.875rem;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+@media only screen and (max-width: 376px) {
+
+}
